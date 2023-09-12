@@ -51,7 +51,7 @@ export default function App() {
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
       <View style={styles.container}>
         <Text style={styles.text}>{asyncData?.val1}</Text>
-        <Text>{asyncData?.val2}</Text>
+        <Text style={styles.text}>{asyncData?.val2}</Text>
         <TextInput
           placeholder="Input 1"
           style={styles.input}
